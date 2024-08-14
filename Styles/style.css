@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.inter{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Miama';
+    src: 
+         url('font/Miama.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.miama{
+    font-family: 'Miama', sans-serif;
+    font-weight: normal;
+}
+
+/* shared-styles  */
+.flex{
+    display: flex;
+}
+
+
+/* header-styles */
+header{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+/* navbar-styles */
+.navbar{
+    justify-content: space-between;
+}
+.link-item nav-anc{
+    text-decoration: none;  
+}
+.link-item{
+    padding-left: 45px;
+    list-style: none;
+}
+
