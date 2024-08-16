@@ -326,3 +326,49 @@ select{
     padding-left: 19px;
     padding-bottom: 19px;
 }
+
+
+/* <<<<<......Footer......>>>>> */
+.ftr{
+    background-color:rgba(34, 34, 34, 1);
+    padding-top: 66px;
+    padding-left: 190px;
+    padding-right: 190px;
+    
+}
+.ftr-main{
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,1fr); */
+    gap: 105px;
+    padding-bottom: 80px;
+}
+.footer2-3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 150px;
+}
+.fit-hd-desc{
+    padding-top: 20px;
+}
+hr.custom-line {
+    border: none; /* Removes the default border */
+    height: 3px; /* Sets the height of the line */
+    background-color: #4CAF50; /* Sets the color of the line */
+    width: 50%; /* Sets the width of the line */
+    margin: 20px auto; /* Adds space above and below the line and centers it */
+}
+.cpr{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer-list{
+    padding-top: 40px;
+}
+.footer-list-item{
+    padding-top: 20px;
+}
