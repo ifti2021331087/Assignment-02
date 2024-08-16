@@ -261,25 +261,41 @@ header{
 .BMI-btn{
     padding-top: 10px;
 }
-input[type="text"]{
-    width: 180px;
-    height: 20px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 20px;
-    border-radius: 8px;
-    background-color: #a2929242;
-    color: rgba(255, 255, 255, 0.6);
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 300px;
 }
-select{
-    width: 200px;
-    height: 40px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 26px;
-    border-radius: 8px;
-    background-color: #a2929242;
-    color: rgba(255, 255, 255, 0.6);
+
+input, select {
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+select:focus, input:focus {
+    outline: none;
+}
+
+.full-width {
+    grid-column: span 2;
 }
 
 
