@@ -203,3 +203,92 @@ header{
     padding-top: 14px;
     padding-bottom: 34px;
 }
+
+
+/* <<<<......BMI......>>>> */
+/* BMI-Heading */
+.BMI-Heading{
+    max-width: 670px;
+    max-height: 120px;
+    margin-top: 88px;
+    margin-left: 385px;
+    margin-right: 385px;
+    padding-bottom: 88px;
+}
+
+/* BMI-Main-Part */
+.BMI-Main-Part{
+    max-width: 1440px;
+    max-height: 487px;
+    padding: 50px 190px;
+    gap: 175px;
+    align-items: center;
+    background-color:rgba(34, 34, 34, 1);
+}
+.BMI-Table{
+    padding-top: 50px;
+}
+.BMI-Title{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+.th-title{
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 18px;
+    padding-right: 20px;
+}
+/* .tab-desc{
+    } */
+.td-desc{
+    padding: 13px 18px;
+}
+.BMI-Table{
+    max-width: 310px;
+    max-height: 216px;
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
+
+}
+.BMI-Table td{
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+.BMI-desc{
+    padding-top: 14px;
+    padding-bottom: 34px;
+}
+.BMI-btn{
+    padding-top: 10px;
+}
+input[type="text"]{
+    width: 180px;
+    height: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: #a2929242;
+    color: rgba(255, 255, 255, 0.6);
+}
+select{
+    width: 200px;
+    height: 40px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 26px;
+    border-radius: 8px;
+    background-color: #a2929242;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* <<<.....Meet Our Team.....>>>> */
+.MOT-heading{
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.MOT-desc{
+    padding-top: 14px;
+}
