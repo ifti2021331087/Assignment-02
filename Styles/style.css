@@ -437,7 +437,7 @@ hr.custom-line {
         transform: translateY(650px);
     }
     .habit{
-        transform: translateX(-70px);
+        transform: translateX(-150px);
         /* padding-right: 150px; */
         align-items: center;
         max-width: 338px;
@@ -462,6 +462,10 @@ hr.custom-line {
         margin: 0 auto;
         align-items: center;
         background-color: #111111;
+    }
+    .run-image{
+        padding: 10px;
+        margin: 0 auto;
     }
 
 /* <<<<<.....BMI-Section....>>>> */
@@ -496,7 +500,7 @@ hr.custom-line {
     .MOT-img-container{
         grid-template-columns: repeat(1,6fr);
         margin: 0 auto;
-        padding-left: 115px;
+        padding-left: 40px;
         background-color: #111111;
     }
     .MOT-img{
@@ -508,6 +512,7 @@ hr.custom-line {
 
     .ftr{
         transform: translateY(1300px);
+        padding-left: 10px;
     }
     .ftr-main{
         flex-direction: column;
@@ -515,5 +520,4 @@ hr.custom-line {
     .footer2-3{
         grid-template-columns: repeat(1,1fr);
     }
-
 }
